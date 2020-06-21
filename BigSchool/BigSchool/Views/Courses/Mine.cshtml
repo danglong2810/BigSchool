@@ -1,9 +1,8 @@
 ﻿@model IEnumerable<BigSchool.Models.Course>
 @{ ViewBag.Title = "Mine";
-                Layout = "~/Views/Shared/_Layout.cshtml"; }
+   Layout = "~/Views/Shared/_Layout.cshtml"; }
 
 <h2>Mine</h2>
-
 <ul class="course">
     @foreach (var course in Model)
     {
@@ -26,16 +25,15 @@
     </div>
     <div class="action">
         <a href="@Url.Action("Edit","Courses", new { id = course.Id })">Edit</a>
-
         <a href="#" class="js-cancel-course" data-course-id="@course.Id">Cancel</a>
     </div>
 </li>}
 </ul>
-
 @section scripts
 {
-    <script>$(document).ready(function () {
-            $(".js-cancel-course").click(function (e) {
+    <script>
+        $(document).ready(function () {
+            $(".js-cancel-courses").click(function (e) {
                 e.preventDefault();
                 var link = $(e.target);
                 bootbox.confirm("Are you sure to cancel?",
@@ -54,5 +52,6 @@
                             });
                     });
             });
-        });</script>
+        });
+    </script>
 }

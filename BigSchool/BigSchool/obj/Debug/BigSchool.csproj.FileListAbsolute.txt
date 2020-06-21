@@ -119,3 +119,4 @@ C:\Users\Dell\source\repos\BigSchool\BigSchool\BigSchool\bin\System.Web.Http.xml
 C:\Users\Dell\source\repos\BigSchool\BigSchool\BigSchool\bin\System.Web.Http.WebHost.xml
 C:\Users\Dell\source\repos\BigSchool\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.AddFollowingsTable.resources
 C:\Users\Dell\source\repos\BigSchool\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.AddIsCanceledColumnToCourse.resources
+C:\Users\Dell\source\repos\BigSchool\BigSchool\BigSchool\obj\Debug\BigSchool.csprojAssemblyReference.cache
